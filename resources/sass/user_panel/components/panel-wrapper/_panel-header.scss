@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+$Lora: 'Lora';
+$Montserrat: 'Montserrat';
+
+$avatar-width: 65px;
+$avatar-horizontal-margin: 10px;
+$panel-banner-horizontal-margin: 10px;
+
+@mixin  panel-header {
+    .panel-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        .user-avatar {
+            margin: 0 $avatar-horizontal-margin;
+            width: $avatar-width;
+            height: $avatar-width;
+            border-radius: 100px;
+            overflow: hidden;
+            position: relative;
+            .avatar {
+                position: absolute;
+                width: 110%;
+                left: 50%;
+                top: 0;
+                transform: translateX(-50%);
+            }
+        }
+        .panel-banner {
+            margin: 0 $panel-banner-horizontal-margin;
+            .welcome-box {
+                font-family: $Lora;
+                & > * {
+                    font-weight: 900;
+                }
+            }
+            .breadcrumbs {
+                font-family: $Montserrat;
+                font-size: 17px;
+            }
+        }
+
+        @media (max-width: 520px) {
+            & {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    }
+}

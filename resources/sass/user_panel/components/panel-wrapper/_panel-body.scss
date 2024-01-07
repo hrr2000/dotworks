@@ -1,0 +1,27 @@
+
+@import 'panel-content';
+
+@mixin panel-body($avatar-horizontal-margin, $avatar-width, $panel-banner-horizontal-margin) {
+
+    @include panel-content;
+    .panel-body {
+        margin-left: 2 * $avatar-horizontal-margin + $avatar-width + $panel-banner-horizontal-margin;
+
+        .panel-body-header {
+            color: white;
+
+            h1 {
+                font-weight: 600;
+            }
+
+        }
+
+
+
+        @media (max-width: 1024px) {
+            margin: 0;
+        }
+    }
+
+
+}

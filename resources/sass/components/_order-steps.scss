@@ -1,0 +1,35 @@
+
+
+@mixin order-steps {
+    .order-steps {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3em 0;
+
+        &__step-icon {
+            background: #EAEAEA;
+            color: #707070;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.1em;
+            border-radius: 70%;
+            padding: 20px;
+            &.active {
+                background: $mdb-primary;
+                color: white;
+            }
+        }
+
+        &__step-connector {
+            height: 4px;
+            width: 50%;
+            background: #EAEAEA;
+            &.active {
+                background: $mdb-primary;
+            }
+        }
+
+    }
+}

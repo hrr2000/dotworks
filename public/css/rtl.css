@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Droid Arabic Kufi;
+    src: url('../fonts/ar.ttf');
+}
+body{
+    font-family: Droid Arabic Kufi,Arial !important;
+}
+.steps h2{
+    font-family:Droid Arabic Kufi,Arial;
+}
+.step h3{
+    font-family: Droid Arabic Kufi,Arial;
+}
+.footer .new-letter-h{
+    font-family: Droid Arabic Kufi,Poppins-Bold;
+}
+ul.navbar-nav {
+    direction: rtl;
+}
+#banner-slider .carousel-item {
+    text-align:right;
+}
+.user-data .dropdown-item{
+    text-align:right;
+    direction:rtl;
+}
+.social-btns {
+    right:unset;
+    left:40px;
+}

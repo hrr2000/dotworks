@@ -1,0 +1,198 @@
+.carousel-indicators li.active {
+    background-color: #00aeef;
+    width: 50px;
+}
+.navbar-brand img {
+    width: 70%;
+    padding: 6px 2px;
+}
+.carousel-item{
+    height:400px !important;
+}
+.carousel-item img{
+    width:100%;
+    min-height: 400px;
+}
+#edit-profile {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 24px;
+}
+.user-data {
+    margin-bottom: 60px;
+}
+.user-image {
+    position: absolute;
+    top: -164px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    z-index: 20;
+}
+.user-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.user-image .level {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+    transition: all .5s;
+    cursor: pointer;
+}
+.user-image .level.active {
+    width: max-content;
+    color: white;
+    background: #fff200;
+    border-radius: 17px;
+    padding-left: 7px;
+}
+.user-image .level-txt {
+    display: none;
+    color: #1b1b1b;
+    font-size: 14px;
+}
+.user-image .level i {
+    background: #fff200;
+    color: #ffc000;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 4px 3.5px;
+}
+.user-image .status {
+    height: 35px;
+    width: 35px;
+    top: -9px;
+    right: -11px;
+    border-width: 6px;
+}
+
+.service {
+    height: 300px;
+    width: 250px;
+}
+.service .body .status {
+    right: 16px;
+}
+.services-header {
+    margin: 0 auto;
+}
+.service .body p {
+    font-size: 14px;
+    padding: 2px 10px;
+}
+.service .body .guarantee {
+    left: 6px;
+}
+.price {
+    font-size: 12px;
+}
+.price span{
+    font-size: 18px;
+}
+.heart-options {
+    padding: 0px;
+}
+.main-info-wrapper {
+    border: 1px solid #d4d4d4;
+    margin-top: 21px;
+    border-radius: 26px;
+    padding: 10px;
+    padding-top: 55px;
+}
+.user-name {
+    color: #00adef;
+    text-align: center;
+    font-size: 23px;
+}
+.user-job {
+    text-align: center;
+    color: #848484;
+    font-size: 18px;
+}
+.user-rating {
+    color: #ffc000;
+    text-align: center;
+    font-size: 15px;
+}
+.user-desc {
+    color: #949494;
+    border: solid 1px #d4d4d4;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 22px;
+    height: 110px;
+    overflow: overlay;
+}
+.user-desc::-webkit-scrollbar {
+    width: 5px;
+    background: #f7f7f7;
+}
+.user-desc::-webkit-scrollbar-thumb{
+    background: red;
+}
+.send-message-btn {
+    border: 1px solid #00adef;
+    color: #00b4f2;
+    padding: 10px;
+    margin: 19%;
+    border-radius: 17px;
+}
+.life-info {
+    margin-top: 22px;
+    border-top: 1px solid #d4d4d4;
+    padding-top: 16px;
+    padding-left: 4px;
+    color: #525252;
+    font-size: 12px;
+}
+.life-info .row {
+    padding: 7px 2px;
+}
+.life-info .row i {
+    color: #00b4f2;
+    padding: 0 3px;
+}
+.life-info .row span {
+    color: #00b4f2;
+}
+
+.sec-info-wrapper {
+    border: 1px solid #d4d4d4;
+    margin-top: 21px;
+    border-radius: 26px;
+    padding: 20px;
+    padding-top: 55px;
+    color: grey;
+    font-size: 17px;
+}
+.sec-info-wrapper h3 {
+    color: #00b4f2;
+    font-size: 20px;
+}
+.sec-info-wrapper h5{
+    color:grey;
+    font-size:17px;
+}
+.dash {
+    width: 23px;
+    height: 7px;
+    background-color: grey;
+    margin: 10px auto;
+    margin-right: 5px;
+}
+.dash.active{
+    background-color: #00b4f2;
+}
+.sec-info-wrapper .info {
+    padding: 6px 0;
+}

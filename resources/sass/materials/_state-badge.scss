@@ -1,0 +1,42 @@
+
+
+@mixin state-badge {
+
+    .state-badge {
+        background: #eee;
+        color: gray;
+        padding: 0 1em;
+        margin: 0;
+        padding-left: 1.7em;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 5px;
+        background-size: .8rem;
+        font-size: .8rem;
+        text-transform: uppercase;
+        border-radius: 10px;
+        display: block;
+        width: fit-content;
+        &--pending {
+            background-color: #FFF1E2;
+            color: #ED6400;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10.51' height='10.51' viewBox='0 0 10.51 10.51'%3E%3Cpath id='Path_2271' data-name='Path 2271' d='M5.255,0A5.255,5.255,0,1,0,10.51,5.255,5.261,5.261,0,0,0,5.255,0m0,9.2A3.941,3.941,0,1,1,9.2,5.255,3.942,3.942,0,0,1,5.255,9.2M7.226,4.6H5.912V3.285a.657.657,0,1,0-1.314,0V5.255a.657.657,0,0,0,.657.657H7.226a.657.657,0,0,0,0-1.314' fill='%23ed6400' fill-rule='evenodd'/%3E%3C/svg%3E%0A");
+        }
+        &--progress {
+            background-color: #D8D4FF;
+            color: #7467F0;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10.51' height='10.51' viewBox='0 0 10.51 10.51'%3E%3Cg id='Group_3529' data-name='Group 3529' transform='translate(-4.392 -4)'%3E%3Cg id='Group_3426' data-name='Group 3426' transform='translate(6.392 3)'%3E%3Cg id='Group_3424' data-name='Group 3424'%3E%3Cg id='Group_3426-2' data-name='Group 3426'%3E%3Cpath id='Path_2270' data-name='Path 2270' d='M5.255,0A5.255,5.255,0,1,0,10.51,5.255,5.261,5.261,0,0,0,5.255,0m0,9.2A3.941,3.941,0,1,1,9.2,5.255a4.168,4.168,0,0,1-.761,2.328A3.8,3.8,0,0,1,5.255,9.2' transform='translate(-2 1)' fill='%237467f0' fill-rule='evenodd'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cpath id='electro_1' d='M548.487,96.813v2.031H550.1l-1.614,2.844V99.656h-1.614l1.614-2.844m1.614,2.031h0M548.487,96a.806.806,0,0,0-.7.41l-1.614,2.844a.817.817,0,0,0,0,.811.807.807,0,0,0,.7.4h.807v1.219a.806.806,0,0,0,1.508.4l1.6-2.814a.814.814,0,0,0-.682-1.245h-.809V96.813a.808.808,0,0,0-.807-.812Z' transform='translate(-538.841 -89.995)' fill='%237467f0'/%3E%3C/g%3E%3C/svg%3E%0A");
+        }
+        &--complete {
+            background-color: #B2FFD7;
+            color: #2DCD7A;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10.51' height='10.51' viewBox='0 0 10.51 10.51'%3E%3Cg id='Group_3428' data-name='Group 3428' transform='translate(3 -10)'%3E%3Cg id='Group_3418' data-name='Group 3418' transform='translate(3.169 3.169)'%3E%3Cpath id='Path_2267' data-name='Path 2267' d='M3.652.047a.234.234,0,0,0-.328.047L1.379,2.7.4,1.715a.233.233,0,0,0-.331,0,.236.236,0,0,0,0,.333L1.239,3.223a.233.233,0,0,0,.166.069h.017A.233.233,0,0,0,1.592,3.2L3.7.376A.236.236,0,0,0,3.652.047' transform='translate(-3 10)' fill='%232dcd7a' stroke='%232dcd7a' stroke-width='1' fill-rule='evenodd'/%3E%3C/g%3E%3Cpath id='Path_2266' data-name='Path 2266' d='M5.255,0A5.255,5.255,0,1,0,10.51,5.255,5.261,5.261,0,0,0,5.255,0m0,9.2A3.941,3.941,0,1,1,9.2,5.255,3.942,3.942,0,0,1,5.255,9.2' transform='translate(-3 10)' fill='%232dcd7a' fill-rule='evenodd'/%3E%3C/g%3E%3C/svg%3E%0A");
+        }
+        &--canceled {
+            background-color: #FFE3E3;
+            color: #ED1000;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10.51' height='10.51' viewBox='0 0 10.51 10.51'%3E%3Cpath id='Path_2268' data-name='Path 2268' d='M2.132,1.82,3.556.388a.228.228,0,0,0,0-.322.225.225,0,0,0-.32,0L1.812,1.5.387.066a.225.225,0,0,0-.32,0,.228.228,0,0,0,0,.322L1.491,1.82.067,3.252a.228.228,0,0,0,0,.322.225.225,0,0,0,.32,0L1.812,2.142,3.236,3.574a.226.226,0,0,0,.32,0,.228.228,0,0,0,0-.322Z' transform='translate(3.621 3.623)' fill='%23ed1000' stroke='%23ed1000' stroke-width='1' fill-rule='evenodd'/%3E%3Cpath id='Path_2270' data-name='Path 2270' d='M5.255,0A5.255,5.255,0,1,0,10.51,5.255,5.261,5.261,0,0,0,5.255,0m0,9.2A3.941,3.941,0,1,1,9.2,5.255,3.942,3.942,0,0,1,5.255,9.2' fill='%23ed1000' fill-rule='evenodd'/%3E%3C/svg%3E%0A");
+        }
+    }
+
+}

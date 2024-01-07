@@ -1,0 +1,287 @@
+@import "components/panel-wrapper/panel-wrapper";
+@import "components/sidebar";
+@import "panel-variables";
+
+#user-panel {
+    @include panel-wrapper;
+    @include sidebar;
+
+    display: flex;
+    margin: 0;
+    background: linear-gradient(135deg, #0072FF, #00C6FF);
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    .card {
+        color: #3b3e51;
+        background-color: #ffffff;
+        padding: 25px 10px;
+        margin: 15px 0;
+        border: 1px solid #ddd;
+
+        .card-header, .card-footer {
+            background: transparent;
+            border: 0;
+            color: #3b3e51;
+        }
+    }
+
+    select, textarea, input {
+        border-radius: $input-border-radius;
+    }
+
+    input:focus, textarea:focus, select:focus {
+        box-shadow: none !important;
+    }
+
+    input::placeholder, textarea::placeholder, select::placeholder {
+        color: $input-placeholder-color;
+    }
+
+    .form-check-input[type=checkbox]:checked {
+        background-color: $primary;
+        border-color: $primary;
+    }
+
+    .form-check-input:focus {
+        border-color: $primary;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem $primary;
+    }
+
+    .error-msg {
+        color:#e3342f;
+        font-size: 80%;
+        margin-top: 0.25rem;
+        font-weight: 600;
+    }
+
+    select {
+        appearance: none;
+        background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+        background-repeat: no-repeat;
+        background-position-x: 97%;
+        background-position-y: 5px;
+        padding-right: 20px;
+    }
+
+    label {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+
+    .toast {
+        border: 0;
+        &.success {
+            & > * {
+                color: white !important;
+            }
+            .toast-header {
+                background: #00b74a !important;
+            }
+            .toast-body {
+                background: #2DCD7A !important;
+            }
+        }
+
+        &.fail {
+            & > * {
+                color: white !important;
+            }
+            .toast-header {
+                background: #c42525 !important;
+            }
+            .toast-body {
+                background: #e52a2a !important;
+            }
+        }
+    }
+
+    .financial-process {
+        color: white;
+        background: #b8dfff2b;
+        border: 0;
+        border-radius: 10px;
+        h6, span {
+            color: white;
+        }
+        hr {
+            background: white;
+            border: 0;
+            opacity: 1;
+        }
+        .financial-btn {
+            background: #5624FF;
+            padding: 5px 40px;
+        }
+        .cancel-btn {
+            background: #7185BA;
+            border: 0;
+        }
+    }
+
+    .timer {
+        margin: 2rem auto;
+        color: #00A2FF;
+        font-weight: 900;
+        font-size: 6vw;
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        &__number {
+            background: #EBEBEB;
+            padding: .1em .2em;
+            border-radius: 15px;
+        }
+    }
+
+    .wallet-header {
+        background: rgba(232, 235, 246, .3);
+        color: white;
+        padding: 3em;
+        border-radius: 20px;
+        margin: 3em auto;
+    }
+
+    .rating {
+        color: $mdb-yellow;
+    }
+
+    #items_table_processing {
+        height: 104%;
+        top: 60px;
+        width: 100%;
+        background: white;
+    }
+
+    .contacts-box {
+        border: solid 1px #e4e4e4;
+        .contact {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            &:nth-child(even) {
+                background: #eee;
+            }
+
+            &:nth-child(odd) {
+                background: white;
+            }
+
+            &__image {
+                img {
+                    border-radius: 50px;
+                    width: 70px;
+                }
+            }
+
+            &__body {
+                padding: 0 20px;
+            }
+
+            &__username {
+                font-size: 16px;
+            }
+
+            &__time {
+                color: #a4a4a4;
+                font-size: 12px;
+            }
+
+            &__message {
+                font-size: 12px;
+            }
+
+        }
+    }
+
+
+    .messages-head {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        border: 1px solid #e4e4e4;
+        .contact__image {
+            width: 50px;
+            border-radius: 50px;
+        }
+        .contact__name {
+            padding: 0 25px;
+        }
+        .contact__username {
+            color: gray;
+            font-size: 15px;
+        }
+    }
+
+    .messages-body {
+        border: solid 1px #e4e4e4;
+        padding: 20px;
+        margin: 10px 0;
+        max-height: 580px;
+        overflow: auto;
+
+        .message {
+            text-align: left;
+            &__content {
+                padding: 10px 15px;
+                display: block;
+                background: #eee;
+                width: fit-content;
+                border-radius: 15px;
+                margin: 10px 0;
+                border-top-left-radius: 0;
+                &.me {
+                    margin-left: auto;
+                    background: $primary;
+                    color: white;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 0;
+                }
+            }
+
+        }
+    }
+
+    .file-upload {
+        text-align: center;
+        border: 2px dashed $primary;
+        padding: 3em;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.1s;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    .step-box {
+        p {
+            font-weight: bold;
+            color: #C0C0C0 !important;
+            span {
+                color: #6F94A3 !important;
+            }
+        }
+    }
+
+    .step-content {
+        display: none;
+    }
+
+    @media (max-width: 500px) {
+        .panel-header {
+            display: none;
+        }
+        .panel-wrapper {
+            width: 87%;
+            margin: auto;
+            padding: 40px 0;
+        }
+        #mainInfo {
+            padding: 0;
+        }
+    }
+
+}

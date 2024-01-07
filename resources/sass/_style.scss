@@ -1,0 +1,20 @@
+
+
+// General
+    hr {
+        border: .5px !important;
+    }
+    button i {
+        pointer-events: none;
+    }
+    .star-rating {
+        background: url("/images/star.png") repeat-x !important;
+    }
+    .star-rating .star-value {
+        background: url("/images/active_star.png") repeat-x !important;
+    }
+// End General
+
+// start order information page
+@import "./pages/order-information";
+// end order information page

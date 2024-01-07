@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/user_panel/profile.js": "/js/user_panel/profile.js",
+    "/js/user_panel/services.js": "/js/user_panel/services.js",
+    "/js/user_panel/orders.js": "/js/user_panel/orders.js",
+    "/js/user_panel/wallet.js": "/js/user_panel/wallet.js",
+    "/js/user_panel/messages.js": "/js/user_panel/messages.js",
+    "/css/app.css": "/css/app.css",
+    "/tailwindcss/app.css": "/tailwindcss/app.css",
+    "/js/app.min.js": "/js/app.min.js",
+    "/css/app.min.css": "/css/app.min.css"
+}

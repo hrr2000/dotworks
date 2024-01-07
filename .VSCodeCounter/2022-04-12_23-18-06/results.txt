@@ -1,0 +1,486 @@
+Date : 2022-04-12 23:18:06
+Directory : d:\Mostafa\Dotworks App
+Total : 355 files,  259810 codes, 68701 comments, 51591 blanks, all 380102 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         33 |    190,972 |     65,076 |     45,975 |    302,023 |
+| JSON       |          7 |     29,453 |          0 |          8 |     29,461 |
+| CSS        |          8 |     20,136 |        223 |      3,004 |     23,363 |
+| PHP        |        276 |     17,680 |      3,386 |      2,444 |     23,510 |
+| SCSS       |         18 |        747 |         16 |        135 |        898 |
+| XML        |         10 |        737 |          0 |          3 |        740 |
+| Markdown   |          1 |         60 |          0 |         20 |         80 |
+| YAML       |          1 |         13 |          0 |          1 |         14 |
+| HTML       |          1 |         12 |          0 |          1 |         13 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                        | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                           |        355 |    259,810 |     68,701 |     51,591 |    380,102 |
+| .idea                                                                                                       |          7 |        693 |          0 |          0 |        693 |
+| app                                                                                                         |         89 |      2,956 |      1,043 |        913 |      4,912 |
+| app\Console                                                                                                 |          1 |         17 |         18 |          7 |         42 |
+| app\Exceptions                                                                                              |          1 |         21 |         28 |          7 |         56 |
+| app\Http                                                                                                    |         59 |      2,257 |        851 |        638 |      3,746 |
+| app\Http\Controllers                                                                                        |         35 |      1,744 |        605 |        494 |      2,843 |
+| app\Http\Controllers\Admin                                                                                  |         10 |        493 |         63 |         88 |        644 |
+| app\Http\Controllers\Admin\Admins                                                                           |          3 |        150 |          0 |         24 |        174 |
+| app\Http\Controllers\Admin\Authorization                                                                    |          1 |         28 |         48 |         10 |         86 |
+| app\Http\Controllers\Admin\Services                                                                         |          2 |        114 |          0 |         16 |        130 |
+| app\Http\Controllers\Admin\Users                                                                            |          3 |        156 |          0 |         24 |        180 |
+| app\Http\Controllers\Auth                                                                                   |          6 |        124 |        117 |         45 |        286 |
+| app\Http\Controllers\Frontend                                                                               |         16 |      1,061 |        329 |        337 |      1,727 |
+| app\Http\Controllers\Frontend\User                                                                          |         13 |        950 |        297 |        292 |      1,539 |
+| app\Http\Controllers\Frontend\User\Order                                                                    |          3 |        244 |        131 |         63 |        438 |
+| app\Http\Controllers\Frontend\User\Profile                                                                  |          4 |        295 |         36 |         90 |        421 |
+| app\Http\Middleware                                                                                         |         10 |        100 |         86 |         41 |        227 |
+| app\Http\Requests                                                                                           |         13 |        370 |        140 |         96 |        606 |
+| app\Http\Requests\Service                                                                                   |          1 |         18 |         10 |          5 |         33 |
+| app\Http\Requests\User                                                                                      |         11 |        327 |        120 |         86 |        533 |
+| app\Http\Requests\User\Order                                                                                |          7 |        126 |         70 |         35 |        231 |
+| app\Http\Requests\User\Service                                                                              |          3 |        174 |         40 |         41 |        255 |
+| app\Http\Requests\User\UserProfile                                                                          |          1 |         27 |         10 |         10 |         47 |
+| app\Models                                                                                                  |         21 |        534 |         49 |        214 |        797 |
+| app\Models\Admin                                                                                            |          3 |         42 |         15 |         19 |         76 |
+| app\Models\Order                                                                                            |          3 |         80 |          0 |         21 |        101 |
+| app\Models\Service                                                                                          |          6 |        132 |          0 |         59 |        191 |
+| app\Models\User                                                                                             |          8 |        260 |         34 |        111 |        405 |
+| app\Providers                                                                                               |          5 |         89 |         78 |         34 |        201 |
+| app\Rules                                                                                                   |          1 |         17 |         18 |          8 |         43 |
+| bootstrap                                                                                                   |          1 |         17 |         30 |          9 |         56 |
+| config                                                                                                      |         18 |        707 |      1,116 |        323 |      2,146 |
+| database                                                                                                    |        103 |      6,536 |        908 |        672 |      8,116 |
+| database\Seeder                                                                                             |         21 |      1,034 |        186 |        137 |      1,357 |
+| database\data                                                                                               |          1 |        922 |          0 |          1 |        923 |
+| database\factories                                                                                          |         17 |        125 |         43 |         69 |        237 |
+| database\migrations                                                                                         |         29 |        716 |        293 |        120 |      1,129 |
+| database\migrations\first                                                                                   |          7 |        162 |         70 |         29 |        261 |
+| database\seederss                                                                                           |         15 |      1,795 |        190 |        170 |      2,155 |
+| database\seedersss                                                                                          |         14 |      1,606 |        164 |        155 |      1,925 |
+| database\seeds                                                                                              |          6 |        338 |         32 |         20 |        390 |
+| public                                                                                                      |         21 |    209,877 |     65,168 |     48,775 |    323,820 |
+| public\css                                                                                                  |          6 |     19,568 |        111 |      2,924 |     22,603 |
+| public\images                                                                                               |          2 |         13 |          0 |          2 |         15 |
+| public\images\vendor                                                                                        |          2 |         13 |          0 |          2 |         15 |
+| public\images\vendor\rater-js                                                                               |          2 |         13 |          0 |          2 |         15 |
+| public\images\vendor\rater-js\lib                                                                           |          2 |         13 |          0 |          2 |         15 |
+| public\js                                                                                                   |         10 |    189,709 |     64,906 |     45,757 |    300,372 |
+| public\js\user_panel                                                                                        |          6 |     19,154 |      4,482 |      2,708 |     26,344 |
+| public\tailwindcss                                                                                          |          1 |        565 |        112 |         79 |        756 |
+| resources                                                                                                   |         96 |     10,099 |        223 |        812 |     11,134 |
+| resources\css                                                                                               |          1 |          3 |          0 |          1 |          4 |
+| resources\js                                                                                                |         20 |      1,062 |        133 |        213 |      1,408 |
+| resources\js\user_panel                                                                                     |         15 |        976 |         78 |        173 |      1,227 |
+| resources\js\user_panel\messages                                                                            |          2 |         80 |          0 |         14 |         94 |
+| resources\js\user_panel\orders                                                                              |          3 |        238 |         29 |         38 |        305 |
+| resources\js\user_panel\profile                                                                             |          5 |        263 |          2 |         48 |        313 |
+| resources\js\user_panel\services                                                                            |          3 |        293 |         31 |         62 |        386 |
+| resources\js\user_panel\wallet                                                                              |          2 |        102 |         16 |         11 |        129 |
+| resources\js\utils                                                                                          |          3 |         60 |          6 |         16 |         82 |
+| resources\lang                                                                                              |          5 |        185 |         60 |         25 |        270 |
+| resources\lang\en                                                                                           |          4 |        131 |         60 |         24 |        215 |
+| resources\sass                                                                                              |         18 |        747 |         16 |        135 |        898 |
+| resources\sass\components                                                                                   |          3 |        164 |          0 |         18 |        182 |
+| resources\sass\materials                                                                                    |          3 |         74 |          0 |         13 |         87 |
+| resources\sass\pages                                                                                        |          1 |         18 |          0 |          3 |         21 |
+| resources\sass\user_panel                                                                                   |          7 |        420 |          0 |         76 |        496 |
+| resources\sass\user_panel\components                                                                        |          5 |        167 |          0 |         35 |        202 |
+| resources\sass\user_panel\components\panel-wrapper                                                          |          4 |         80 |          0 |         27 |        107 |
+| resources\views                                                                                             |         52 |      8,102 |         14 |        438 |      8,554 |
+| resources\views\admin                                                                                       |         12 |      2,821 |         14 |        201 |      3,036 |
+| resources\views\admin\admins                                                                                |          3 |        625 |          6 |         63 |        694 |
+| resources\views\admin\auth                                                                                  |          1 |         56 |          0 |          8 |         64 |
+| resources\views\admin\layouts                                                                               |          2 |        483 |          0 |         26 |        509 |
+| resources\views\admin\services                                                                              |          2 |        412 |          3 |         41 |        456 |
+| resources\views\admin\users                                                                                 |          3 |        694 |          5 |         61 |        760 |
+| resources\views\auth                                                                                        |          6 |        367 |          0 |         70 |        437 |
+| resources\views\auth\passwords                                                                              |          3 |        134 |          0 |         29 |        163 |
+| resources\views\frontend                                                                                    |         34 |      4,914 |          0 |        167 |      5,081 |
+| resources\views\frontend\includes                                                                           |          5 |        283 |          0 |         12 |        295 |
+| resources\views\frontend\layouts                                                                            |          2 |        189 |          0 |         23 |        212 |
+| resources\views\frontend\service_order                                                                      |          3 |        531 |          0 |         11 |        542 |
+| resources\views\frontend\support                                                                            |          2 |        149 |          0 |          4 |        153 |
+| resources\views\frontend\user_panel                                                                         |         19 |      3,082 |          0 |        104 |      3,186 |
+| resources\views\frontend\user_panel\messages                                                                |          2 |         89 |          0 |          7 |         96 |
+| resources\views\frontend\user_panel\orders                                                                  |          3 |        576 |          0 |          7 |        583 |
+| resources\views\frontend\user_panel\profile                                                                 |          5 |        683 |          0 |         44 |        727 |
+| resources\views\frontend\user_panel\services                                                                |          3 |        548 |          0 |         33 |        581 |
+| resources\views\frontend\user_panel\wallet                                                                  |          5 |      1,051 |          0 |          9 |      1,060 |
+| resources\views\frontend\user_panel\wallet\deposit                                                          |          3 |        389 |          0 |          5 |        394 |
+| routes                                                                                                      |          4 |         94 |        152 |         30 |        276 |
+| tests                                                                                                       |          4 |         41 |         15 |         19 |         75 |
+| tests\Feature                                                                                               |          1 |         12 |          5 |          5 |         22 |
+| tests\Unit                                                                                                  |          1 |         10 |          5 |          4 |         19 |
+| vendor                                                                                                      |          2 |         17 |         27 |          1 |         45 |
+| vendor\facade                                                                                               |          2 |         17 |         27 |          1 |         45 |
+| vendor\facade\ignition                                                                                      |          2 |         17 |         27 |          1 |         45 |
+| vendor\facade\ignition\resources                                                                            |          2 |         17 |         27 |          1 |         45 |
+| vendor\facade\ignition\resources\compiled                                                                   |          2 |         17 |         27 |          1 |         45 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                    | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Mostafa\Dotworks App\.idea\blog.iml                                                                      | XML        |        130 |          0 |          0 |        130 |
+| d:\Mostafa\Dotworks App\.idea\discord.xml                                                                   | XML        |          7 |          0 |          0 |          7 |
+| d:\Mostafa\Dotworks App\.idea\modules.xml                                                                   | XML        |          8 |          0 |          0 |          8 |
+| d:\Mostafa\Dotworks App\.idea\php.xml                                                                       | XML        |        131 |          0 |          0 |        131 |
+| d:\Mostafa\Dotworks App\.idea\phpunit.xml                                                                   | XML        |         11 |          0 |          0 |         11 |
+| d:\Mostafa\Dotworks App\.idea\vcs.xml                                                                       | XML        |          6 |          0 |          0 |          6 |
+| d:\Mostafa\Dotworks App\.idea\workspace.xml                                                                 | XML        |        400 |          0 |          0 |        400 |
+| d:\Mostafa\Dotworks App\.styleci.yml                                                                        | YAML       |         13 |          0 |          1 |         14 |
+| d:\Mostafa\Dotworks App\README.md                                                                           | Markdown   |         60 |          0 |         20 |         80 |
+| d:\Mostafa\Dotworks App\app\Console\Kernel.php                                                              | PHP        |         17 |         18 |          7 |         42 |
+| d:\Mostafa\Dotworks App\app\Exceptions\Handler.php                                                          | PHP        |         21 |         28 |          7 |         56 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\AdminController.php                                      | PHP        |         45 |         15 |         14 |         74 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Admins\AdminPermissionController.php                     | PHP        |         43 |          0 |          8 |         51 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Admins\AdminRoleController.php                           | PHP        |         46 |          0 |          8 |         54 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Admins\ManagementController.php                          | PHP        |         61 |          0 |          8 |         69 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Authorization\AdminRolePermissionController.php          | PHP        |         28 |         48 |         10 |         86 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Services\CategoryController.php                          | PHP        |         63 |          0 |          8 |         71 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Services\ManagementController.php                        | PHP        |         51 |          0 |          8 |         59 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Users\ManagementController.php                           | PHP        |         62 |          0 |          8 |         70 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Users\UserPermissionController.php                       | PHP        |         43 |          0 |          8 |         51 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Admin\Users\UserRoleController.php                             | PHP        |         51 |          0 |          8 |         59 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Auth\ConfirmPasswordController.php                             | PHP        |         14 |         20 |          7 |         41 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Auth\ForgotPasswordController.php                              | PHP        |          8 |         10 |          5 |         23 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Auth\LoginController.php                                       | PHP        |         25 |         20 |          9 |         54 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Auth\RegisterController.php                                    | PHP        |         51 |         32 |         11 |         94 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Auth\ResetPasswordController.php                               | PHP        |         10 |         15 |          6 |         31 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Auth\VerificationController.php                                | PHP        |         16 |         20 |          7 |         43 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Controller.php                                                 | PHP        |         10 |          0 |          4 |         14 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\IndexController.php                                   | PHP        |         15 |          5 |          6 |         26 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\ServiceViewController.php                             | PHP        |         86 |         27 |         33 |        146 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\SupportController.php                                 | PHP        |         10 |          0 |          6 |         16 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\DashboardController.php                          | PHP        |         19 |         10 |          5 |         34 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\InvoiceController.php                            | PHP        |         28 |         48 |         11 |         87 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\MessageController.php                            | PHP        |         30 |         10 |         12 |         52 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\Order\OrderController.php                        | PHP        |        171 |         36 |         39 |        246 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\Order\OrderFileController.php                    | PHP        |         45 |         47 |         14 |        106 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\Order\OrderStateController.php                   | PHP        |         28 |         48 |         10 |         86 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\PaypalPaymentController.php                      | PHP        |         64 |          0 |         24 |         88 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\Profile\UserLanguagesController.php              | PHP        |         81 |          6 |         33 |        120 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\Profile\UserProfileController.php                | PHP        |         87 |         22 |         30 |        139 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\Profile\UserSkillsController.php                 | PHP        |         62 |          6 |         17 |         85 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\Profile\UserSlidesController.php                 | PHP        |         65 |          2 |         10 |         77 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\ServiceController.php                            | PHP        |        215 |         62 |         75 |        352 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\Frontend\User\WalletController.php                             | PHP        |         55 |          0 |         12 |         67 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\MessageController.php                                          | PHP        |         28 |         48 |         10 |         86 |
+| d:\Mostafa\Dotworks App\app\Http\Controllers\ServiceStateController.php                                     | PHP        |         28 |         48 |         10 |         86 |
+| d:\Mostafa\Dotworks App\app\Http\Kernel.php                                                                 | PHP        |         43 |         20 |          7 |         70 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\Admin.php                                                       | PHP        |          1 |         26 |          1 |         28 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\Authenticate.php                                                | PHP        |         12 |          6 |          5 |         23 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\CheckForMaintenanceMode.php                                     | PHP        |          8 |          6 |          4 |         18 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\EncryptCookies.php                                              | PHP        |          8 |          6 |          4 |         18 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\LastActivity.php                                                | PHP        |         15 |          7 |          4 |         26 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\Localization.php                                                | PHP        |         14 |          6 |          5 |         25 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\RedirectIfAuthenticated.php                                     | PHP        |         15 |          8 |          5 |         28 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\TrimStrings.php                                                 | PHP        |         10 |          5 |          4 |         19 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\TrustProxies.php                                                | PHP        |          9 |         10 |          5 |         24 |
+| d:\Mostafa\Dotworks App\app\Http\Middleware\VerifyCsrfToken.php                                             | PHP        |          8 |          6 |          4 |         18 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\Service\OrderPaymentRequest.php                                   | PHP        |         18 |         10 |          5 |         33 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\UpdateProfileRequest.php                                          | PHP        |         25 |         10 |          5 |         40 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Order\AskForFileResubmissionRequest.php                      | PHP        |         17 |         10 |          5 |         32 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Order\ConfirmDeliveryFilesRequest.php                        | PHP        |         19 |         10 |          5 |         34 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Order\FeedbackAsClientRequest.php                            | PHP        |         20 |         10 |          5 |         35 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Order\FeedbackAsProviderRequest.php                          | PHP        |         20 |         10 |          5 |         35 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Order\OrderResponseRequest.php                               | PHP        |         16 |         10 |          5 |         31 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Order\ShowDeliveryRequest.php                                | PHP        |         17 |         10 |          5 |         32 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Order\StartDeliveryRequest.php                               | PHP        |         17 |         10 |          5 |         32 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Service\DestroyServiceRequest.php                            | PHP        |         16 |         10 |          5 |         31 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Service\StoreServiceRequest.php                              | PHP        |         78 |         15 |         18 |        111 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\Service\UpdateServiceRequest.php                             | PHP        |         80 |         15 |         18 |        113 |
+| d:\Mostafa\Dotworks App\app\Http\Requests\User\UserProfile\UpdateAccountRequest.php                         | PHP        |         27 |         10 |         10 |         47 |
+| d:\Mostafa\Dotworks App\app\Models\Admin\Admin.php                                                          | PHP        |         21 |         15 |          9 |         45 |
+| d:\Mostafa\Dotworks App\app\Models\Admin\AdminPermission.php                                                | PHP        |          9 |          0 |          4 |         13 |
+| d:\Mostafa\Dotworks App\app\Models\Admin\AdminRole.php                                                      | PHP        |         12 |          0 |          6 |         18 |
+| d:\Mostafa\Dotworks App\app\Models\Message.php                                                              | PHP        |         20 |          0 |          4 |         24 |
+| d:\Mostafa\Dotworks App\app\Models\Order\Order.php                                                          | PHP        |         51 |          0 |          7 |         58 |
+| d:\Mostafa\Dotworks App\app\Models\Order\OrderFile.php                                                      | PHP        |         14 |          0 |          7 |         21 |
+| d:\Mostafa\Dotworks App\app\Models\Order\OrderState.php                                                     | PHP        |         15 |          0 |          7 |         22 |
+| d:\Mostafa\Dotworks App\app\Models\Service\Category.php                                                     | PHP        |         25 |          0 |         11 |         36 |
+| d:\Mostafa\Dotworks App\app\Models\Service\Service.php                                                      | PHP        |         27 |          0 |         13 |         40 |
+| d:\Mostafa\Dotworks App\app\Models\Service\ServiceImage.php                                                 | PHP        |         31 |          0 |         13 |         44 |
+| d:\Mostafa\Dotworks App\app\Models\Service\ServicePackage.php                                               | PHP        |         25 |          0 |          9 |         34 |
+| d:\Mostafa\Dotworks App\app\Models\Service\ServicePackageOffer.php                                          | PHP        |         15 |          0 |          7 |         22 |
+| d:\Mostafa\Dotworks App\app\Models\Service\ServiceState.php                                                 | PHP        |          9 |          0 |          6 |         15 |
+| d:\Mostafa\Dotworks App\app\Models\User\Country.php                                                         | PHP        |          6 |          1 |          4 |         11 |
+| d:\Mostafa\Dotworks App\app\Models\User\Invoice.php                                                         | PHP        |         31 |          0 |          7 |         38 |
+| d:\Mostafa\Dotworks App\app\Models\User\User.php                                                            | PHP        |        164 |         33 |         74 |        271 |
+| d:\Mostafa\Dotworks App\app\Models\User\UserImage.php                                                       | PHP        |          9 |          0 |          4 |         13 |
+| d:\Mostafa\Dotworks App\app\Models\User\UserLanguage.php                                                    | PHP        |         15 |          0 |          6 |         21 |
+| d:\Mostafa\Dotworks App\app\Models\User\UserPermission.php                                                  | PHP        |          9 |          0 |          6 |         15 |
+| d:\Mostafa\Dotworks App\app\Models\User\UserRole.php                                                        | PHP        |         12 |          0 |          4 |         16 |
+| d:\Mostafa\Dotworks App\app\Models\User\UserSkill.php                                                       | PHP        |         14 |          0 |          6 |         20 |
+| d:\Mostafa\Dotworks App\app\Providers\AppServiceProvider.php                                                | PHP        |         15 |         12 |          5 |         32 |
+| d:\Mostafa\Dotworks App\app\Providers\AuthServiceProvider.php                                               | PHP        |         13 |         12 |          6 |         31 |
+| d:\Mostafa\Dotworks App\app\Providers\BroadcastServiceProvider.php                                          | PHP        |         12 |          5 |          5 |         22 |
+| d:\Mostafa\Dotworks App\app\Providers\EventServiceProvider.php                                              | PHP        |         18 |         11 |          6 |         35 |
+| d:\Mostafa\Dotworks App\app\Providers\RouteServiceProvider.php                                              | PHP        |         31 |         38 |         12 |         81 |
+| d:\Mostafa\Dotworks App\app\Rules\ServicePriceValidate.php                                                  | PHP        |         17 |         18 |          8 |         43 |
+| d:\Mostafa\Dotworks App\app\helpers.php                                                                     | PHP        |         21 |          1 |          5 |         27 |
+| d:\Mostafa\Dotworks App\bootstrap\app.php                                                                   | PHP        |         17 |         30 |          9 |         56 |
+| d:\Mostafa\Dotworks App\composer.json                                                                       | JSON       |         72 |          0 |          2 |         74 |
+| d:\Mostafa\Dotworks App\composer.lock                                                                       | JSON       |      8,297 |          0 |          1 |      8,298 |
+| d:\Mostafa\Dotworks App\config\app.php                                                                      | PHP        |         89 |        120 |         32 |        241 |
+| d:\Mostafa\Dotworks App\config\auth.php                                                                     | PHP        |         41 |         70 |         13 |        124 |
+| d:\Mostafa\Dotworks App\config\broadcasting.php                                                             | PHP        |         26 |         22 |         12 |         60 |
+| d:\Mostafa\Dotworks App\config\cache.php                                                                    | PHP        |         53 |         34 |         18 |        105 |
+| d:\Mostafa\Dotworks App\config\cors.php                                                                     | PHP        |          3 |         29 |          3 |         35 |
+| d:\Mostafa\Dotworks App\config\database.php                                                                 | PHP        |         81 |         45 |         22 |        148 |
+| d:\Mostafa\Dotworks App\config\datatables.php                                                               | PHP        |         32 |         73 |         18 |        123 |
+| d:\Mostafa\Dotworks App\config\filesystems.php                                                              | PHP        |         29 |         42 |         15 |         86 |
+| d:\Mostafa\Dotworks App\config\hashing.php                                                                  | PHP        |         12 |         32 |          9 |         53 |
+| d:\Mostafa\Dotworks App\config\jwt.php                                                                      | PHP        |         26 |        235 |         44 |        305 |
+| d:\Mostafa\Dotworks App\config\logging.php                                                                  | PHP        |         64 |         24 |         17 |        105 |
+| d:\Mostafa\Dotworks App\config\mail.php                                                                     | PHP        |         45 |         47 |         18 |        110 |
+| d:\Mostafa\Dotworks App\config\paypal.php                                                                   | PHP        |         24 |          4 |          3 |         31 |
+| d:\Mostafa\Dotworks App\config\queue.php                                                                    | PHP        |         43 |         32 |         15 |         90 |
+| d:\Mostafa\Dotworks App\config\services.php                                                                 | PHP        |         16 |         11 |          7 |         34 |
+| d:\Mostafa\Dotworks App\config\session.php                                                                  | PHP        |         22 |        145 |         33 |        200 |
+| d:\Mostafa\Dotworks App\config\view.php                                                                     | PHP        |         10 |         20 |          7 |         37 |
+| d:\Mostafa\Dotworks App\config\voyager.php                                                                  | PHP        |         91 |        131 |         37 |        259 |
+| d:\Mostafa\Dotworks App\database\Seeder\AdminPermissionSeeder.php                                           | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\AdminRolePermissionSeeder.php                                       | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\AdminRoleSeeder.php                                                 | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\CategorySeeder.php                                                  | PHP        |         30 |          5 |          3 |         38 |
+| d:\Mostafa\Dotworks App\database\Seeder\DataRowsTableSeeder.php                                             | PHP        |        335 |         11 |         25 |        371 |
+| d:\Mostafa\Dotworks App\database\Seeder\DataTypesTableSeeder.php                                            | PHP        |         53 |         11 |          6 |         70 |
+| d:\Mostafa\Dotworks App\database\Seeder\DatabaseSeeder.php                                                  | PHP        |          9 |         29 |          4 |         42 |
+| d:\Mostafa\Dotworks App\database\Seeder\MenuItemsTableSeeder.php                                            | PHP        |        160 |          5 |         13 |        178 |
+| d:\Mostafa\Dotworks App\database\Seeder\MenusTableSeeder.php                                                | PHP        |         12 |          5 |          3 |         20 |
+| d:\Mostafa\Dotworks App\database\Seeder\MessageSeeder.php                                                   | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\OrderSeeder.php                                                     | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\PermissionRoleTableSeeder.php                                       | PHP        |         15 |          5 |          5 |         25 |
+| d:\Mostafa\Dotworks App\database\Seeder\PermissionsTableSeeder.php                                          | PHP        |         26 |          3 |          8 |         37 |
+| d:\Mostafa\Dotworks App\database\Seeder\RolesTableSeeder.php                                                | PHP        |         21 |          3 |          4 |         28 |
+| d:\Mostafa\Dotworks App\database\Seeder\ServiceSeeder.php                                                   | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\ServiceStateSeeder.php                                              | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\SettingsTableSeeder.php                                             | PHP        |        123 |         10 |         13 |        146 |
+| d:\Mostafa\Dotworks App\database\Seeder\TranslationsTableSeeder.php                                         | PHP        |        170 |         39 |         23 |        232 |
+| d:\Mostafa\Dotworks App\database\Seeder\UserPermissionSeeder.php                                            | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\UserRolePermissionSeeder.php                                        | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\Seeder\UserRoleSeeder.php                                                  | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\data\languages.json                                                        | JSON       |        922 |          0 |          1 |        923 |
+| d:\Mostafa\Dotworks App\database\factories\AdminPermissionFactory.php                                       | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\AdminRoleFactory.php                                             | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\AdminRolePermissionFactory.php                                   | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\CountryFactory.php                                               | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\InvoiceFactory.php                                               | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\MessageFactory.php                                               | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\OrderFactory.php                                                 | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\OrderFileFactory.php                                             | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\OrderReviewFactory.php                                           | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\OrderStateFactory.php                                            | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\ServiceFactory.php                                               | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\ServiceStateFactory.php                                          | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\UserFactory.php                                                  | PHP        |         13 |         11 |          5 |         29 |
+| d:\Mostafa\Dotworks App\database\factories\UserPermissionFactory.php                                        | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\UserRoleFactory.php                                              | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\UserRolePermissionFactory.php                                    | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\factories\UserSkillFactory.php                                             | PHP        |          7 |          2 |          4 |         13 |
+| d:\Mostafa\Dotworks App\database\migrations\2014_10_12_000000_create_users_table.php                        | PHP        |         23 |         10 |          4 |         37 |
+| d:\Mostafa\Dotworks App\database\migrations\2014_10_12_100000_create_password_resets_table.php              | PHP        |         19 |         10 |          4 |         33 |
+| d:\Mostafa\Dotworks App\database\migrations\2016_01_01_000000_create_pages_table.php                        | PHP        |         27 |         11 |          4 |         42 |
+| d:\Mostafa\Dotworks App\database\migrations\2016_01_01_000000_create_posts_table.php                        | PHP        |         29 |         12 |          5 |         46 |
+| d:\Mostafa\Dotworks App\database\migrations\2017_04_11_000000_alter_post_nullable_fields_table.php          | PHP        |         25 |         10 |          5 |         40 |
+| d:\Mostafa\Dotworks App\database\migrations\2019_08_19_000000_create_failed_jobs_table.php                  | PHP        |         22 |         10 |          4 |         36 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_01_08_154508_create_categories_table.php                   | PHP        |         24 |         10 |          5 |         39 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_01_080859_create_service_states_table.php               | PHP        |         20 |         10 |          4 |         34 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_02_102548_create_services_table.php                     | PHP        |         36 |         10 |          4 |         50 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_08_154204_create_service_images_table.php               | PHP        |         23 |         10 |          4 |         37 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_09_162016_create_countries_table.php                    | PHP        |         20 |         10 |          4 |         34 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_13_121502_create_languages_table.php                    | PHP        |         20 |         10 |          4 |         34 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_13_124702_create_user_languages_table.php               | PHP        |         24 |         10 |          4 |         38 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_13_214713_create_user_skills_table.php                  | PHP        |         24 |         10 |          4 |         38 |
+| d:\Mostafa\Dotworks App\database\migrations\2020_06_16_205444_create_user_images_table.php                  | PHP        |         23 |         10 |          4 |         37 |
+| d:\Mostafa\Dotworks App\database\migrations\2021_06_30_191840_create_service_packages_table.php             | PHP        |         29 |         10 |          4 |         43 |
+| d:\Mostafa\Dotworks App\database\migrations\2021_06_30_193011_create_service_package_offers_table.php       | PHP        |         24 |         10 |          4 |         38 |
+| d:\Mostafa\Dotworks App\database\migrations\2021_07_28_091745_create_order_states_table.php                 | PHP        |         20 |         10 |          4 |         34 |
+| d:\Mostafa\Dotworks App\database\migrations\2021_07_28_095532_create_orders_table.php                       | PHP        |         43 |         10 |          4 |         57 |
+| d:\Mostafa\Dotworks App\database\migrations\2021_07_29_084559_create_messages_table.php                     | PHP        |         28 |         10 |          4 |         42 |
+| d:\Mostafa\Dotworks App\database\migrations\2022_02_15_142152_create_order_files_table.php                  | PHP        |         23 |         10 |          4 |         37 |
+| d:\Mostafa\Dotworks App\database\migrations\2022_02_18_140209_create_invoices_table.php                     | PHP        |         28 |         10 |          4 |         42 |
+| d:\Mostafa\Dotworks App\database\migrations\first\2020_05_30_034222_create_admins_table.php                 | PHP        |         30 |         10 |          5 |         45 |
+| d:\Mostafa\Dotworks App\database\migrations\first\2021_03_22_014826_create_user_roles_table.php             | PHP        |         22 |         10 |          4 |         36 |
+| d:\Mostafa\Dotworks App\database\migrations\first\2021_03_22_014852_create_admin_roles_table.php            | PHP        |         20 |         10 |          4 |         34 |
+| d:\Mostafa\Dotworks App\database\migrations\first\2021_03_22_111924_create_admin_permissions_table.php      | PHP        |         19 |         10 |          4 |         33 |
+| d:\Mostafa\Dotworks App\database\migrations\first\2021_03_22_111942_create_user_permissions_table.php       | PHP        |         19 |         10 |          4 |         33 |
+| d:\Mostafa\Dotworks App\database\migrations\first\2021_03_22_112312_create_admin_role_permissions_table.php | PHP        |         26 |         10 |          4 |         40 |
+| d:\Mostafa\Dotworks App\database\migrations\first\2021_03_22_112320_create_user_role_permissions_table.php  | PHP        |         26 |         10 |          4 |         40 |
+| d:\Mostafa\Dotworks App\database\seederss\CategoriesTableSeeder.php                                         | PHP        |        189 |         26 |         15 |        230 |
+| d:\Mostafa\Dotworks App\database\seederss\DataRowsTableSeeder.php                                           | PHP        |        335 |         11 |         25 |        371 |
+| d:\Mostafa\Dotworks App\database\seederss\DataTypesTableSeeder.php                                          | PHP        |         53 |         11 |          6 |         70 |
+| d:\Mostafa\Dotworks App\database\seederss\MenuItemsTableSeeder.php                                          | PHP        |        160 |          5 |         13 |        178 |
+| d:\Mostafa\Dotworks App\database\seederss\MenusTableSeeder.php                                              | PHP        |         12 |          5 |          3 |         20 |
+| d:\Mostafa\Dotworks App\database\seederss\PagesTableSeeder.php                                              | PHP        |        255 |         26 |         19 |        300 |
+| d:\Mostafa\Dotworks App\database\seederss\PermissionRoleTableSeeder.php                                     | PHP        |         15 |          5 |          5 |         25 |
+| d:\Mostafa\Dotworks App\database\seederss\PermissionsTableSeeder.php                                        | PHP        |         26 |          3 |          8 |         37 |
+| d:\Mostafa\Dotworks App\database\seederss\PostsTableSeeder.php                                              | PHP        |        381 |         31 |         26 |        438 |
+| d:\Mostafa\Dotworks App\database\seederss\RolesTableSeeder.php                                              | PHP        |         21 |          3 |          4 |         28 |
+| d:\Mostafa\Dotworks App\database\seederss\SettingsTableSeeder.php                                           | PHP        |        123 |         10 |         13 |        146 |
+| d:\Mostafa\Dotworks App\database\seederss\TranslationsTableSeeder.php                                       | PHP        |        170 |         39 |         23 |        232 |
+| d:\Mostafa\Dotworks App\database\seederss\UsersTableSeeder.php                                              | PHP        |         21 |          5 |          4 |         30 |
+| d:\Mostafa\Dotworks App\database\seederss\VoyagerDatabaseSeeder.php                                         | PHP        |         18 |          5 |          3 |         26 |
+| d:\Mostafa\Dotworks App\database\seederss\VoyagerDummyDatabaseSeeder.php                                    | PHP        |         16 |          5 |          3 |         24 |
+| d:\Mostafa\Dotworks App\database\seedersss\DataRowsTableSeeder.php                                          | PHP        |        335 |         11 |         25 |        371 |
+| d:\Mostafa\Dotworks App\database\seedersss\DataTypesTableSeeder.php                                         | PHP        |         53 |         11 |          6 |         70 |
+| d:\Mostafa\Dotworks App\database\seedersss\MenuItemsTableSeeder.php                                         | PHP        |        160 |          5 |         13 |        178 |
+| d:\Mostafa\Dotworks App\database\seedersss\MenusTableSeeder.php                                             | PHP        |         12 |          5 |          3 |         20 |
+| d:\Mostafa\Dotworks App\database\seedersss\PagesTableSeeder.php                                             | PHP        |        255 |         26 |         19 |        300 |
+| d:\Mostafa\Dotworks App\database\seedersss\PermissionRoleTableSeeder.php                                    | PHP        |         15 |          5 |          5 |         25 |
+| d:\Mostafa\Dotworks App\database\seedersss\PermissionsTableSeeder.php                                       | PHP        |         26 |          3 |          8 |         37 |
+| d:\Mostafa\Dotworks App\database\seedersss\PostsTableSeeder.php                                             | PHP        |        381 |         31 |         26 |        438 |
+| d:\Mostafa\Dotworks App\database\seedersss\RolesTableSeeder.php                                             | PHP        |         21 |          3 |          4 |         28 |
+| d:\Mostafa\Dotworks App\database\seedersss\SettingsTableSeeder.php                                          | PHP        |        123 |         10 |         13 |        146 |
+| d:\Mostafa\Dotworks App\database\seedersss\TranslationsTableSeeder.php                                      | PHP        |        170 |         39 |         23 |        232 |
+| d:\Mostafa\Dotworks App\database\seedersss\UsersTableSeeder.php                                             | PHP        |         21 |          5 |          4 |         30 |
+| d:\Mostafa\Dotworks App\database\seedersss\VoyagerDatabaseSeeder.php                                        | PHP        |         18 |          5 |          3 |         26 |
+| d:\Mostafa\Dotworks App\database\seedersss\VoyagerDummyDatabaseSeeder.php                                   | PHP        |         16 |          5 |          3 |         24 |
+| d:\Mostafa\Dotworks App\database\seeds\CountrySeeder.php                                                    | PHP        |        254 |          5 |          5 |        264 |
+| d:\Mostafa\Dotworks App\database\seeds\InvoiceSeeder.php                                                    | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\seeds\LanguageSeeder.php                                                   | PHP        |         16 |          5 |          3 |         24 |
+| d:\Mostafa\Dotworks App\database\seeds\OrderReviewSeeder.php                                                | PHP        |          8 |          6 |          3 |         17 |
+| d:\Mostafa\Dotworks App\database\seeds\OrderStateSeeder.php                                                 | PHP        |         26 |          5 |          3 |         34 |
+| d:\Mostafa\Dotworks App\database\seeds\ServiceStateSeeder.php                                               | PHP        |         26 |          5 |          3 |         34 |
+| d:\Mostafa\Dotworks App\package-lock.json                                                                   | JSON       |     20,050 |          0 |          1 |     20,051 |
+| d:\Mostafa\Dotworks App\package.json                                                                        | JSON       |         46 |          0 |          1 |         47 |
+| d:\Mostafa\Dotworks App\phpunit.xml                                                                         | XML        |         31 |          0 |          1 |         32 |
+| d:\Mostafa\Dotworks App\public\css\app.css                                                                  | CSS        |      9,204 |         49 |      1,457 |     10,710 |
+| d:\Mostafa\Dotworks App\public\css\app.min.css                                                              | CSS        |      9,204 |         49 |      1,457 |     10,710 |
+| d:\Mostafa\Dotworks App\public\css\profile.css                                                              | CSS        |        194 |          0 |          3 |        197 |
+| d:\Mostafa\Dotworks App\public\css\rtl.css                                                                  | CSS        |         34 |          0 |          1 |         35 |
+| d:\Mostafa\Dotworks App\public\css\style.css                                                                | CSS        |        783 |         13 |          4 |        800 |
+| d:\Mostafa\Dotworks App\public\css\user_panel.css                                                           | CSS        |        149 |          0 |          2 |        151 |
+| d:\Mostafa\Dotworks App\public\images\vendor\rater-js\lib\star_0.svg                                        | XML        |          1 |          0 |          1 |          2 |
+| d:\Mostafa\Dotworks App\public\images\vendor\rater-js\lib\star_1.svg                                        | XML        |         12 |          0 |          1 |         13 |
+| d:\Mostafa\Dotworks App\public\index.php                                                                    | PHP        |         10 |         39 |         12 |         61 |
+| d:\Mostafa\Dotworks App\public\js\app.js                                                                    | JavaScript |     85,229 |     30,207 |     21,516 |    136,952 |
+| d:\Mostafa\Dotworks App\public\js\app.min.js                                                                | JavaScript |     85,229 |     30,207 |     21,516 |    136,952 |
+| d:\Mostafa\Dotworks App\public\js\script.js                                                                 | JavaScript |         71 |          8 |         13 |         92 |
+| d:\Mostafa\Dotworks App\public\js\stats.js                                                                  | JavaScript |         26 |          2 |          4 |         32 |
+| d:\Mostafa\Dotworks App\public\js\user_panel\invoices.js                                                    | JavaScript |          4 |          2 |          0 |          6 |
+| d:\Mostafa\Dotworks App\public\js\user_panel\messages.js                                                    | JavaScript |     15,493 |      3,518 |      2,288 |     21,299 |
+| d:\Mostafa\Dotworks App\public\js\user_panel\orders.js                                                      | JavaScript |      2,793 |        843 |        284 |      3,920 |
+| d:\Mostafa\Dotworks App\public\js\user_panel\profile.js                                                     | JavaScript |        367 |         30 |         58 |        455 |
+| d:\Mostafa\Dotworks App\public\js\user_panel\services.js                                                    | JavaScript |        339 |         49 |         58 |        446 |
+| d:\Mostafa\Dotworks App\public\js\user_panel\wallet.js                                                      | JavaScript |        158 |         40 |         20 |        218 |
+| d:\Mostafa\Dotworks App\public\mix-manifest.json                                                            | JSON       |         12 |          0 |          1 |         13 |
+| d:\Mostafa\Dotworks App\public\tailwindcss\app.css                                                          | CSS        |        565 |        112 |         79 |        756 |
+| d:\Mostafa\Dotworks App\resources\css\app.css                                                               | CSS        |          3 |          0 |          1 |          4 |
+| d:\Mostafa\Dotworks App\resources\js\app.js                                                                 | JavaScript |         12 |         22 |         11 |         45 |
+| d:\Mostafa\Dotworks App\resources\js\bootstrap.js                                                           | JavaScript |         14 |         27 |         13 |         54 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\messages\chat-room.js                                       | JavaScript |         75 |          0 |          9 |         84 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\messages\index.js                                           | JavaScript |          5 |          0 |          5 |         10 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\orders\datatable.js                                         | JavaScript |         83 |         20 |          7 |        110 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\orders\deliver.js                                           | JavaScript |         88 |          9 |         21 |        118 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\orders\index.js                                             | JavaScript |         67 |          0 |         10 |         77 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\profile\index.js                                            | JavaScript |         11 |          0 |          3 |         14 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\profile\information.js                                      | JavaScript |         15 |          2 |          7 |         24 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\profile\languages.js                                        | JavaScript |         80 |          0 |         12 |         92 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\profile\skills.js                                           | JavaScript |         81 |          0 |         14 |         95 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\profile\slides.js                                           | JavaScript |         76 |          0 |         12 |         88 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\services\datatable.js                                       | JavaScript |         87 |         15 |          7 |        109 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\services\index.js                                           | JavaScript |          7 |          0 |          3 |         10 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\services\serviceForm.js                                     | JavaScript |        199 |         16 |         52 |        267 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\wallet\datatable.js                                         | JavaScript |         97 |         16 |          8 |        121 |
+| d:\Mostafa\Dotworks App\resources\js\user_panel\wallet\index.js                                             | JavaScript |          5 |          0 |          3 |          8 |
+| d:\Mostafa\Dotworks App\resources\js\utils\ImagePreviewer.js                                                | JavaScript |         21 |          0 |          4 |         25 |
+| d:\Mostafa\Dotworks App\resources\js\utils\Toast.js                                                         | JavaScript |         33 |          1 |         10 |         44 |
+| d:\Mostafa\Dotworks App\resources\js\utils\helpers.js                                                       | JavaScript |          6 |          5 |          2 |         13 |
+| d:\Mostafa\Dotworks App\resources\lang\ar.json                                                              | JSON       |         54 |          0 |          1 |         55 |
+| d:\Mostafa\Dotworks App\resources\lang\en\auth.php                                                          | PHP        |          5 |         10 |          5 |         20 |
+| d:\Mostafa\Dotworks App\resources\lang\en\pagination.php                                                    | PHP        |          5 |         10 |          5 |         20 |
+| d:\Mostafa\Dotworks App\resources\lang\en\passwords.php                                                     | PHP        |          8 |         10 |          5 |         23 |
+| d:\Mostafa\Dotworks App\resources\lang\en\validation.php                                                    | PHP        |        113 |         30 |          9 |        152 |
+| d:\Mostafa\Dotworks App\resources\sass\_override-boostrap.scss                                              | SCSS       |          0 |          0 |          2 |          2 |
+| d:\Mostafa\Dotworks App\resources\sass\_style.scss                                                          | SCSS       |         13 |          4 |          4 |         21 |
+| d:\Mostafa\Dotworks App\resources\sass\_variables.scss                                                      | SCSS       |         46 |          3 |          5 |         54 |
+| d:\Mostafa\Dotworks App\resources\sass\app.scss                                                             | SCSS       |         12 |          9 |         14 |         35 |
+| d:\Mostafa\Dotworks App\resources\sass\components\_all.scss                                                 | SCSS       |          4 |          0 |          4 |          8 |
+| d:\Mostafa\Dotworks App\resources\sass\components\_order-steps.scss                                         | SCSS       |         30 |          0 |          6 |         36 |
+| d:\Mostafa\Dotworks App\resources\sass\components\_package-card.scss                                        | SCSS       |        130 |          0 |          8 |        138 |
+| d:\Mostafa\Dotworks App\resources\sass\materials\_all.scss                                                  | SCSS       |          4 |          0 |          2 |          6 |
+| d:\Mostafa\Dotworks App\resources\sass\materials\_msg-icon.scss                                             | SCSS       |         32 |          0 |          6 |         38 |
+| d:\Mostafa\Dotworks App\resources\sass\materials\_state-badge.scss                                          | SCSS       |         38 |          0 |          5 |         43 |
+| d:\Mostafa\Dotworks App\resources\sass\pages\_order-information.scss                                        | SCSS       |         18 |          0 |          3 |         21 |
+| d:\Mostafa\Dotworks App\resources\sass\user_panel\_panel-variables.scss                                     | SCSS       |          4 |          0 |          2 |          6 |
+| d:\Mostafa\Dotworks App\resources\sass\user_panel\_userpanel.scss                                           | SCSS       |        249 |          0 |         39 |        288 |
+| d:\Mostafa\Dotworks App\resources\sass\user_panel\components\_sidebar.scss                                  | SCSS       |         87 |          0 |          8 |         95 |
+| d:\Mostafa\Dotworks App\resources\sass\user_panel\components\panel-wrapper\_panel-body.scss                 | SCSS       |         16 |          0 |         12 |         28 |
+| d:\Mostafa\Dotworks App\resources\sass\user_panel\components\panel-wrapper\_panel-content.scss              | SCSS       |         12 |          0 |          7 |         19 |
+| d:\Mostafa\Dotworks App\resources\sass\user_panel\components\panel-wrapper\_panel-header.scss               | SCSS       |         41 |          0 |          6 |         47 |
+| d:\Mostafa\Dotworks App\resources\sass\user_panel\components\panel-wrapper\_panel-wrapper.scss              | SCSS       |         11 |          0 |          2 |         13 |
+| d:\Mostafa\Dotworks App\resources\views\admin\admins\management.blade.php                                   | PHP        |        250 |          2 |         21 |        273 |
+| d:\Mostafa\Dotworks App\resources\views\admin\admins\permissions.blade.php                                  | PHP        |        181 |          2 |         21 |        204 |
+| d:\Mostafa\Dotworks App\resources\views\admin\admins\roles.blade.php                                        | PHP        |        194 |          2 |         21 |        217 |
+| d:\Mostafa\Dotworks App\resources\views\admin\auth\login.blade.php                                          | PHP        |         56 |          0 |          8 |         64 |
+| d:\Mostafa\Dotworks App\resources\views\admin\dashboard.blade.php                                           | PHP        |        551 |          0 |          2 |        553 |
+| d:\Mostafa\Dotworks App\resources\views\admin\layouts\app.blade.php                                         | PHP        |        113 |          0 |         21 |        134 |
+| d:\Mostafa\Dotworks App\resources\views\admin\layouts\layout.blade.php                                      | PHP        |        370 |          0 |          5 |        375 |
+| d:\Mostafa\Dotworks App\resources\views\admin\services\categories.blade.php                                 | PHP        |        220 |          2 |         22 |        244 |
+| d:\Mostafa\Dotworks App\resources\views\admin\services\management.blade.php                                 | PHP        |        192 |          1 |         19 |        212 |
+| d:\Mostafa\Dotworks App\resources\views\admin\users\management.blade.php                                    | PHP        |        309 |          1 |         19 |        329 |
+| d:\Mostafa\Dotworks App\resources\views\admin\users\permissions.blade.php                                   | PHP        |        181 |          2 |         21 |        204 |
+| d:\Mostafa\Dotworks App\resources\views\admin\users\roles.blade.php                                         | PHP        |        204 |          2 |         21 |        227 |
+| d:\Mostafa\Dotworks App\resources\views\auth\login.blade.php                                                | PHP        |         61 |          0 |         13 |         74 |
+| d:\Mostafa\Dotworks App\resources\views\auth\passwords\confirm.blade.php                                    | PHP        |         41 |          0 |          9 |         50 |
+| d:\Mostafa\Dotworks App\resources\views\auth\passwords\email.blade.php                                      | PHP        |         40 |          0 |          7 |         47 |
+| d:\Mostafa\Dotworks App\resources\views\auth\passwords\reset.blade.php                                      | PHP        |         53 |          0 |         13 |         66 |
+| d:\Mostafa\Dotworks App\resources\views\auth\register.blade.php                                             | PHP        |        147 |          0 |         24 |        171 |
+| d:\Mostafa\Dotworks App\resources\views\auth\verify.blade.php                                               | PHP        |         25 |          0 |          4 |         29 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\home.blade.php                                             | PHP        |        193 |          0 |          4 |        197 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\includes\countries.blade.php                               | PHP        |          0 |          0 |          1 |          1 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\includes\footer.blade.php                                  | PHP        |        124 |          0 |          2 |        126 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\includes\nav-content.blade.php                             | PHP        |         10 |          0 |          1 |         11 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\includes\sidebar.blade.php                                 | PHP        |        108 |          0 |          3 |        111 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\includes\usernav.blade.php                                 | PHP        |         41 |          0 |          5 |         46 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\layouts\app.blade.php                                      | PHP        |        119 |          0 |         14 |        133 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\layouts\template.blade.php                                 | PHP        |         70 |          0 |          9 |         79 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\service.blade.php                                          | PHP        |        231 |          0 |          7 |        238 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\service_order\order_complete.blade.php                     | PHP        |        163 |          0 |          4 |        167 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\service_order\order_information.blade.php                  | PHP        |        197 |          0 |          3 |        200 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\service_order\order_payment.blade.php                      | PHP        |        171 |          0 |          4 |        175 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\support\add-ticket.blade.php                               | PHP        |         43 |          0 |          2 |         45 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\support\index.blade.php                                    | PHP        |        106 |          0 |          2 |        108 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user.blade.php                                             | PHP        |        256 |          0 |          2 |        258 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\dashboard.blade.php                             | PHP        |        135 |          0 |          4 |        139 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\messages\contact.blade.php                      | PHP        |         39 |          0 |          3 |         42 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\messages\index.blade.php                        | PHP        |         50 |          0 |          4 |         54 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\orders\deliver.blade.php                        | PHP        |        231 |          0 |          2 |        233 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\orders\index.blade.php                          | PHP        |         55 |          0 |          2 |         57 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\orders\show.blade.php                           | PHP        |        290 |          0 |          3 |        293 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\profile\edit_account.blade.php                  | PHP        |         89 |          0 |         10 |         99 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\profile\edit_languages.blade.php                | PHP        |        118 |          0 |          3 |        121 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\profile\edit_profile.blade.php                  | PHP        |        253 |          0 |         17 |        270 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\profile\edit_skills.blade.php                   | PHP        |        115 |          0 |          4 |        119 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\profile\edit_slides.blade.php                   | PHP        |        108 |          0 |         10 |        118 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\services\create.blade.php                       | PHP        |        290 |          0 |         17 |        307 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\services\edit.blade.php                         | PHP        |        200 |          0 |         14 |        214 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\services\index.blade.php                        | PHP        |         58 |          0 |          2 |         60 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\wallet\deposit\amount.blade.php                 | PHP        |        124 |          0 |          1 |        125 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\wallet\deposit\confirm.blade.php                | PHP        |        118 |          0 |          2 |        120 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\wallet\deposit\payment.blade.php                | PHP        |        147 |          0 |          2 |        149 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\wallet\index.blade.php                          | PHP        |        661 |          0 |          3 |        664 |
+| d:\Mostafa\Dotworks App\resources\views\frontend\user_panel\wallet\withdraw.blade.php                       | PHP        |          1 |          0 |          1 |          2 |
+| d:\Mostafa\Dotworks App\routes\api.php                                                                      | PHP        |          6 |         10 |          4 |         20 |
+| d:\Mostafa\Dotworks App\routes\channels.php                                                                 | PHP        |          5 |         10 |          4 |         19 |
+| d:\Mostafa\Dotworks App\routes\console.php                                                                  | PHP        |          6 |         10 |          4 |         20 |
+| d:\Mostafa\Dotworks App\routes\web.php                                                                      | PHP        |         77 |        122 |         18 |        217 |
+| d:\Mostafa\Dotworks App\server.php                                                                          | PHP        |          8 |          9 |          5 |         22 |
+| d:\Mostafa\Dotworks App\tailwind.config.js                                                                  | JavaScript |        184 |          0 |          2 |        186 |
+| d:\Mostafa\Dotworks App\tests\CreatesApplication.php                                                        | PHP        |         12 |          5 |          6 |         23 |
+| d:\Mostafa\Dotworks App\tests\Feature\ExampleTest.php                                                       | PHP        |         12 |          5 |          5 |         22 |
+| d:\Mostafa\Dotworks App\tests\TestCase.php                                                                  | PHP        |          7 |          0 |          4 |         11 |
+| d:\Mostafa\Dotworks App\tests\Unit\ExampleTest.php                                                          | PHP        |         10 |          5 |          4 |         19 |
+| d:\Mostafa\Dotworks App\vendor\facade\ignition\resources\compiled\ignition.js                               | JavaScript |          5 |         27 |          0 |         32 |
+| d:\Mostafa\Dotworks App\vendor\facade\ignition\resources\compiled\index.html                                | HTML       |         12 |          0 |          1 |         13 |
+| d:\Mostafa\Dotworks App\webpack.mix.js                                                                      | JavaScript |         12 |         10 |          3 |         25 |
+| Total                                                                                                       |            |    259,810 |     68,701 |     51,591 |    380,102 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,20 @@
+
+
+.order-package {
+    margin: 3em 0;
+    padding: 2.5em;
+    border-radius: 10px;
+    border: solid grey 1px;
+    &.basic {
+        background: #e1fdef;
+        border-color: $mdb-success;
+    }
+    &.standard {
+        background: #f6ebff;
+        border-color: $mdb-secondary;
+    }
+    &.premium {
+        background: #ffefe3;
+        border-color: $mdb-warning;
+    }
+}

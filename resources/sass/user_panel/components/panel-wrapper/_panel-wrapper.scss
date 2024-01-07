@@ -1,0 +1,12 @@
+@import "panel-header";
+@import "panel-body";
+
+@mixin panel-wrapper {
+    @include panel-header;
+    @include panel-body($avatar-horizontal-margin, $avatar-width, $panel-banner-horizontal-margin);
+    .panel-wrapper {
+        width: 80%;
+        margin: 4rem auto;
+        padding: 60px 0;
+    }
+}
